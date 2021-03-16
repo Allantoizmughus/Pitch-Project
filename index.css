@@ -5,4 +5,5 @@ nav{
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
+    width: 100%;
 }
