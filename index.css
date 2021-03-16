@@ -1,9 +1,14 @@
-nav{
+nav>ol{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
     width: 100%;
+}
+
+nav>ol>li>a:hover{
+color: red;
 }
