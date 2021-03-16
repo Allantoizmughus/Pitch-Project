@@ -13,12 +13,19 @@ nav>a{
   display: flex;
   flex-direction: row;
   margin-left: 5%;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("images/ideasbg.jpg");
+  background-size: cover;
 }
 #categories{
   width: 100px;
+  margin-right: 3%;
 }
 #entertainment, #agriculture, #transport, #others{
   margin-top: 10%;
+  margin-right: 25%;
   float: left;
   background-color: #E6A02B;
   shape-outside: circle(50%, 50%, 50%, 50%);
@@ -65,7 +72,43 @@ nav>a{
 #tips{
   text-align: center;
   line-height: 380%;
+  border-left: 1px solid black;
+  padding-left: 0%;
+  margin-left: 8%;
 }
 #tips h2{
   margin-bottom: 5%;
+  font-size: 1em;
+  text-decoration: underline;
+}
+#enterexamples{
+  background-image: url("images/entertainment.jpg");
+  background-size: cover;
+}
+#agricexamples{
+  background-image: url("images/agriculture.jpg");
+  background-size: contain;
+}
+#transportexamples{
+  background-image: url("images/boda.png");
+  background-size: contain;
+}
+#othersexamples{
+  background-image: url("images/salon.jpg");
+  background-size: cover;
+
+}#overlay{
+  background-color: black;
+  opacity: 0.7;
+  height: 101%;
+  width: 101%;
+  margin: 0%;
+  border-radius: 10px;
+}
+#overlay1>p{
+  background-color: white;
+  height: 650px;
+  width: 120%;
+  margin-top: -4%;
+  opacity: .7;
 }
