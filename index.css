@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+#bimage{
+    background-image: url("images/white-lightbulbyello.jpg");
+}
