@@ -1,19 +1,20 @@
-nav>ol{
+nav{
+    font-size:30px;
+    text-decoration: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    justify-content: flex-end;
+}
+nav>a{
+    color: white;
+    margin-right: 3%;
+    margin-top: 1%;
+    text-decoration: none ;
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
     width: 100%;
 }
 
-nav>ol>li>a:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.5);
-    background: red;
-    color: cyan;
-}
 #pics{
     display: flex;
     flex-direction: row;
@@ -21,12 +22,21 @@ nav>ol>li>a:hover{
 }
 footer{
     border: 1px solid black;
-    background-color: rgba(255, 208, 0, 0.993);
+    background-color: rgba(247, 203, 11, 0.918);
     font-size: larger;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    opacity: 0.4;
 }    
 h2{
     text-decoration: underline solid black;
 }
+/*visited link */
+  a:visited {
+    color: green;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
