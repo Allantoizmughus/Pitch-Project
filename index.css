@@ -12,6 +12,7 @@ nav>a{
 }.ideascontent{
   display: flex;
   flex-direction: row;
+  margin-left: 5%;
 }
 #categories{
   width: 100px;
@@ -33,11 +34,38 @@ nav>a{
   padding-top: 22%;
 }
 #agriculture{
-
+  background-color: #6A613A;
+  stroke: #FDD947;
+  stroke-width: 3px;
 }
 #transport{
-
+  background-color: #C74823;
+  stroke: #FDD947;
+  stroke-width: 3px;
 }
 #others{
+  background-color: #602847;
+  stroke: #FDD947;
+  stroke-width: 3px;
+}
+#enterexamples, #agricexamples, #transportexamples, #othersexamples{
+  height: 98px;
+  text-align: center;
+  align-items: center;
+  border:2px solid black;
+  border-radius: 10px;
+ margin-bottom: 2%;
+ width: 50%;
+ margin-left: 5%;
+}
+#examples a{
   
+  color: white;
+}
+#tips{
+  text-align: center;
+  line-height: 380%;
+}
+#tips h2{
+  margin-bottom: 5%;
 }
