@@ -1,14 +1,35 @@
+<<<<<<< HEAD
+=======
+
+#overlay{
+    background-color: black;
+    opacity: 0.7;
+    height: ;
+}
+>>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 nav{
     font-size:30px;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
 }
+<<<<<<< HEAD
+=======
+#content{
+    background-image: url("images/unemployment.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;  
+    background-position:center;
+    background-size: cover;
+}
+>>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 nav>a{
     color: white;
     margin-right: 3%;
     margin-top: 1%;
     text-decoration: none ;
+<<<<<<< HEAD
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
@@ -31,6 +52,44 @@ footer{
 }    
 h2{
     text-decoration: underline solid black;
+=======
+} 
+.logo{
+    text-align: center;
+}
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+=======
+.ideascontent{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  box-sizing: border-box;
+  padding-top: 10%;
+  width: 1100px;
+}
+nav{
+  font-size:20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav>a{
+  color: black;
+  margin-right: 3%;
+  margin-top: 5%;
+  text-decoration: none ;
+  margin-bottom: -8%;
+>>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 }
 /*visited link */
   a:visited {
@@ -39,4 +98,135 @@ h2{
   /* mouse over link */
   a:hover {
     color: hotpink;
+<<<<<<< HEAD
   }
+=======
+  }
+#maincontent{
+  background-image: url("images/ideasbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  box-sizing: border-box;
+}
+#categories{
+  width: 100px;
+  margin-right: 3%;
+}
+#entertainment, #agriculture, #transport, #others{
+  margin-top: 10%;
+  margin-right: 25%;
+  float: left;
+  background-color: #E6A02B;
+  shape-outside: circle(50%, 50%, 50%, 50%);
+  clip-path: circle();
+  height:100px;
+  width: 100px;
+  text-align: center, center;
+}
+#categories h2{
+  font-size: 1em;
+  color: white;
+  padding: 5%;
+  padding-top: 22%;
+}
+#agriculture{
+  background-color: #6A613A;
+}
+#transport{
+  background-color: #C74823;
+}
+#others{
+  background-color: #602847;
+  padding-left: 2%;
+}
+#enterexamples, #agricexamples, #transportexamples, #othersexamples{
+  height: 98px;
+  text-align: center;
+  align-items: center;
+  border:2px solid black;
+  border-radius: 10px;
+ margin-bottom: 5%;
+ margin-top: 3%;
+ width: 150%;
+ margin-left: 5%;
+ line-height: 130%;
+ 
+}
+#examples a{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#tips{
+  text-align: center;
+  line-height: 380%;
+  border-left: 1px solid black;
+  padding-left: 0%;
+  position: relative;
+  right: -40%;
+  width: 30%;
+}
+#tips h2{
+  margin-bottom: 5%;
+  font-size: 1em;
+  text-decoration: underline;
+}
+#tips a{
+  padding-left: 4%;
+}
+#enterexamples{
+  background-image: url("images/entertainment.jpg");
+  background-size: cover;
+}
+#agricexamples{
+  background-image: url("images/agriculture.jpg");
+  background-size: contain;
+}
+#transportexamples{
+  background-image: url("images/boda.png");
+  background-size: contain;
+}
+#othersexamples{
+  background-image: url("images/salon.jpg");
+  background-size: cover;
+
+}#overlay{
+  background-color: black;
+  opacity: 0.7;
+  height: 101%;
+  width: 101%;
+  margin: 0%;
+  border-radius: 10px;
+}
+#overlay1{
+  background-color: rgba(255,255, 255, 0.7);
+  height: 100%;
+  width: 120%;
+  margin-top: -4%;
+}
+#bannerdj{
+  background-image: url("images/bannerdj.jpg");
+  height: 400px;
+  padding: 2%;
+}
+#bannerdj p{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(0,0, 0, 0.7);
+  width: 60%;
+  margin-left: 0%;
+  padding: 2%;
+}
+
+#mission{
+  margin-left: 300%;
+body{
+    background-image: url('https://www.financialfortunemedia.com/wp-content/uploads/2020/11/unem.jpg');
+    background-image: cover;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+}
+>>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7

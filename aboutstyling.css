@@ -1,0 +1,68 @@
+/*Styles About Page*/
+nav{
+  font-size:30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+#abount{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100.5%;
+  margin: 0%;
+  height: 680px;
+}
+#abount img{
+  width: 20%;
+  float: left;
+  shape-outside: circle(50%, 50%, 50%, 50%);
+  clip-path: circle();
+  text-align: center, center;
+}
+body{
+  background-image: url("images/aboutbg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#text{
+  width: 80%;
+}
+nav{
+  font-size:15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav>a{
+  color: black;
+  margin-right: 2%;
+  margin-top: 1%;
+  text-decoration: none ;
+}
+/*visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+#bubble>p{
+  float: right;
+  width: 10%;
+  shape-outside: circle(50%, 50%, 50%, 50%);
+  clip-path: circle();
+  text-align: center, center;
+  margin-top: 5%;
+}
+#missioinstatement{
+  float: right;
+  width: 20%;
+  background-color: #E6A02B;
+  border-radius: 20px;
+  padding: 3%;
+  border: 2px solid black;
+  margin-left: -5%;
+}
+
+
