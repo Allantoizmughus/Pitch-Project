@@ -1,20 +1,14 @@
-<<<<<<< HEAD
-=======
-
 #overlay{
     background-color: black;
     opacity: 0.7;
     height: ;
 }
->>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 nav{
     font-size:30px;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
 }
-<<<<<<< HEAD
-=======
 #content{
     background-image: url("images/unemployment.jpg");
     background-repeat: no-repeat;
@@ -23,13 +17,11 @@ nav{
     background-position:center;
     background-size: cover;
 }
->>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 nav>a{
     color: white;
     margin-right: 3%;
     margin-top: 1%;
     text-decoration: none ;
-<<<<<<< HEAD
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
@@ -52,7 +44,6 @@ footer{
 }    
 h2{
     text-decoration: underline solid black;
-=======
 } 
 .logo{
     text-align: center;
@@ -67,8 +58,6 @@ h2{
     color: hotpink;
   }
   
-  
-=======
 .ideascontent{
   display: flex;
   flex-direction: row;
@@ -89,7 +78,6 @@ nav>a{
   margin-top: 5%;
   text-decoration: none ;
   margin-bottom: -8%;
->>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
 }
 /*visited link */
   a:visited {
@@ -98,9 +86,6 @@ nav>a{
   /* mouse over link */
   a:hover {
     color: hotpink;
-<<<<<<< HEAD
-  }
-=======
   }
 #maincontent{
   background-image: url("images/ideasbg.jpg");
@@ -222,11 +207,12 @@ nav>a{
 }
 
 #mission{
-  margin-left: 300%;
+  margin-left: 30%;
+}
 body{
     background-image: url('https://www.financialfortunemedia.com/wp-content/uploads/2020/11/unem.jpg');
     background-image: cover;
     opacity: 0.3;
     background-repeat: no-repeat;
 }
->>>>>>> e44794609cd5dc37e21ad0dd987304b466aef6a7
+
