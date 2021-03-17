@@ -1,4 +1,4 @@
-nav{
+/*nav{
   position: relative;
   right: -55%;
   margin: 2%;
@@ -9,15 +9,21 @@ nav>a{
   background-color: rgb(109, 109, 6);
   margin-left: 1%;
   margin-right: 1%;
-}.ideascontent{
+}*/
+.ideascontent{
   display: flex;
   flex-direction: row;
   margin-left: 5%;
   box-sizing: border-box;
+  padding-top: 10%;
+  width: 1100px;
 }
 body{
   background-image: url("images/ideasbg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  box-sizing: border-box;
 }
 #categories{
   width: 100px;
@@ -61,25 +67,35 @@ body{
   align-items: center;
   border:2px solid black;
   border-radius: 10px;
- margin-bottom: 2%;
- width: 50%;
+ margin-bottom: 5%;
+ margin-top: 3%;
+ width: 150%;
  margin-left: 5%;
+ line-height: 130%;
+ 
 }
 #examples a{
-  
   color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 #tips{
   text-align: center;
   line-height: 380%;
   border-left: 1px solid black;
   padding-left: 0%;
-  margin-left: 8%;
+  position: relative;
+  right: -40%;
+  width: 30%;
 }
 #tips h2{
   margin-bottom: 5%;
   font-size: 1em;
   text-decoration: underline;
+}
+#tips a{
+  padding-left: 4%;
 }
 #enterexamples{
   background-image: url("images/entertainment.jpg");
@@ -105,10 +121,9 @@ body{
   margin: 0%;
   border-radius: 10px;
 }
-#overlay1>p{
-  background-color: white;
+#overlay1{
+  background-color: rgba(255,255, 255, 0.7);
   height: 650px;
   width: 120%;
   margin-top: -4%;
-  opacity: .7;
 }
