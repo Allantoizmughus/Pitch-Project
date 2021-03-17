@@ -27,7 +27,7 @@ nav>a{
   a:hover {
     color: hotpink;
   }
-body{
+#maincontent{
   background-image: url("images/ideasbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,4 +144,10 @@ body{
   width: 40%;
   margin-left: 30%;
   padding: 2%;
+}
+body{
+    background-image: url('https://www.financialfortunemedia.com/wp-content/uploads/2020/11/unem.jpg');
+    background-image: cover;
+    opacity: 0.3;
+    background-repeat: no-repeat;
 }
