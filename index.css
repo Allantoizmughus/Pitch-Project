@@ -25,7 +25,7 @@ nav>a{
     border: 2px solid white;
     padding: 1%;
 }
-#bimage{
+#rvwcon{
     background-image: url("images/white-lightbulbyello.jpg");
     width: 100%;
 }
@@ -48,6 +48,9 @@ h2{
 } 
 .logo{
     text-align: center;
+}
+.logo img{
+  width: 60%;
 }
 .ideascontent{
   display: flex;
@@ -217,6 +220,9 @@ h2{
 float: left;
 }
 #rvwoverlay{
-  background-color: black;
-  height: 550px;
+  background-color: rgba(255,255, 255, 0.7);
+  height: 420%;
+}
+#rvw{
+  background-color: rgb(248, 248, 128);
 }
