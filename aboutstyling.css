@@ -49,18 +49,20 @@ a:hover {
 }
 #bubble>p{
   float: right;
-  width: 20%;
+  width: 10%;
   shape-outside: circle(50%, 50%, 50%, 50%);
   clip-path: circle();
   text-align: center, center;
+  margin-top: 5%;
 }
 #missioinstatement{
   float: right;
   width: 20%;
-  shape-outside: circle(50%, 50%, 50%, 50%);
-  clip-path: circle();
-  text-align: center, center;
   background-color: #E6A02B;
+  border-radius: 20px;
+  padding: 3%;
+  border: 2px solid black;
+  margin-left: -5%;
 }
 
 
