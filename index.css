@@ -2,7 +2,7 @@
     background-color: rgba(0,0, 0, 0.7);
 }
 nav{
-    font-size:30px;
+    font-size:18px;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
@@ -63,19 +63,7 @@ h2{
   padding-top: 10%;
   width: 1100px;
 }
-nav{
-  font-size:20px;
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-}
-nav>a{
-  color: black;
-  margin-right: 3%;
-  margin-top: 5%;
-  text-decoration: none ;
-  margin-bottom: -8%;
-}
+
 /*visited link */
   a:visited {
     color: green;
