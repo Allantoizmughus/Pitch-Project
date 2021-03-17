@@ -20,8 +20,10 @@ nav>a{
     margin-right: 3%;
     margin-top: 1%;
     text-decoration: none ;
-    background-color: #6A613A;
-    border-radius: 5px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 1%;
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
@@ -47,16 +49,6 @@ h2{
 .logo{
     text-align: center;
 }
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
 .ideascontent{
   display: flex;
   flex-direction: row;
@@ -68,11 +60,12 @@ h2{
 
 /*visited link */
   a:visited {
-    color: green;
+    color: #E6A02B;
   }
   /* mouse over link */
   a:hover {
     color: hotpink;
+    border: 2px solid white;
   }
 #maincontent{
   background-image: url("images/ideasbg.jpg");
@@ -174,8 +167,9 @@ h2{
 #overlay1{
   background-color: rgba(255,255, 255, 0.7);
   height: 100%;
-  width: 120%;
-  margin-top: -4%;
+  width: 125%;
+  margin-top: 0%;
+  border-radius: 25px;
 }
 #bannerdj{
   background-image: url("images/bannerdj.jpg");
@@ -195,9 +189,34 @@ h2{
 #mission{
   margin-left: 30%;
 }
-body{
+#pageb{
     background-image: url('https://www.financialfortunemedia.com/wp-content/uploads/2020/11/unem.jpg');
     background-image: cover;
     background-repeat: no-repeat;
 }
 
+.para1{
+  width: 60%;
+  padding-left: 20%;
+  font-size: 1.2em;
+}
+
+.para2{
+  width: 60%;
+  padding-left: 20%;
+  font-size: 1.2em; 
+}
+#rvwcon{
+  text-align: center;
+  font-size: 1.4em;
+}
+.para2 img{
+  float: right;
+}
+#rvwcon img{
+float: left;
+}
+#rvwoverlay{
+  background-color: black;
+  height: 550px;
+}
