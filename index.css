@@ -27,7 +27,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    opacity: 0.4;
+    opacity: 0.6;
 }    
 h2{
     text-decoration: underline solid black;
