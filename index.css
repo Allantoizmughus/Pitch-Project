@@ -5,7 +5,7 @@ nav{
     font-size:18px;
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;  
 }
 #content{
     background-image: url("images/unemployment.jpg");
@@ -20,6 +20,8 @@ nav>a{
     margin-right: 3%;
     margin-top: 1%;
     text-decoration: none ;
+    background-color: #6A613A;
+    border-radius: 5px;
 }
 #bimage{
     background-image: url("images/white-lightbulbyello.jpg");
