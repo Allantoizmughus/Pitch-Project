@@ -145,10 +145,3 @@ body{
   margin-left: 30%;
   padding: 2%;
 }
-/*Styles About Page*/
-nav{
-  font-size:30px;
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-}
